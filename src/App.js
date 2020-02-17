@@ -11,6 +11,7 @@ export default class App extends Component {
       <Navbar bg = "light" expand="lg">
         <Navbar.Brand>
           <Link to="/">Fisher Bookstore</Link>
+        </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end">
             <Nav>
@@ -19,7 +20,6 @@ export default class App extends Component {
               </NavItem>
             </Nav>
           </Navbar.Collapse>
-        </Navbar.Brand>
       </Navbar>
       <Routes />
     </div>
